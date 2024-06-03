@@ -6,13 +6,21 @@
     <title>Date Counter</title>
 </head>
 <body>
-    
-    <input type="date" name="" id="userDate">
+    <div>
+        <h1>Start Day</h1>
+        
+        <!-- Display the Date the user picks -->
+        <p id="selectedDate"></p>
+        
+        <!-- Clear after Selecting the Date -->
+        <input type="date" id="userDate">
+        <button onclick="postDate" id="displayDateBtn">Post</button>
+    </div>
+   
     
     <!-- This hold my time counter -->
-    <div>90</div>
-    <div>Days</div>
-
+    <div id="displayDays">Days</div>
+    
     <script src="index.js"></script>
 </body>
 </html>
